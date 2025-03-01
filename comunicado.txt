@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comunicado Sindicato</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f4f4f4;
+        }
+        .container {
+            position: relative;
+            width: 400px; /* Ajusta según el tamaño de tu marco */
+            height: 700px;
+            background: url('tu-fondo.png') no-repeat center center;
+            background-size: cover;
+        }
+        .texto {
+            position: absolute;
+            top: 20%; /* Ajusta para que quede en el área del comunicado */
+            left: 10%;
+            width: 80%;
+            height: 60%;
+            overflow-y: scroll;
+            background: rgba(255, 255, 255, 0.8); /* Fondo semitransparente opcional */
+            padding: 10px;
+            border-radius: 10px;
+            font-family: Arial, sans-serif;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="texto">
+        <p><strong>🔴 Comunicado Oficial 🔴</strong></p>
+        <p>Estimados compañeros, les informamos que el próximo lunes...</p>
+        <p>📆 Fecha: 5 de marzo de 2025</p>
+        <p>📍 Lugar: Salón principal</p>
+        <p>✊ ¡Juntos por nuestros derechos!</p>
+    </div>
+</div>
+
+</body>
+</html>
