@@ -18,7 +18,7 @@
             position: relative;
             width: 400px; /* Ajusta según el tamaño de tu marco */
             height: 700px;
-            background: url('tu-fondo.png') no-repeat center center;
+            background: url('Afiche Arsat.png') no-repeat center center;
             background-size: cover;
         }
         .texto {
